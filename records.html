@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="未来キッズアカデミーのホームページです。子どもたちの学びと成長を応援しています。">
+    <meta name="keywords" content="未来キッズアカデミー, 子ども, 学び, 成長, ボランティア,夏休み,宿題,江南市,江南,勉強,ミライキッズアカデミー,愛知県,小学生,中学生">
+    <title>学習支援ボランティア　未来キッズアカデミー</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
+    <style>
+        body {
+            font-family: 'Kosugi Maru', Arial, Helvetica, Verdana, Tahoma, Trebuchet MS, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background: #d8bfd8;
+            color: black;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 50px; /* 画像の高さを調整 */
+            margin-right: 20px; /* テキストとの間にスペースを追加 */
+        }
+        main {
+            display: flex;
+            flex: 1;
+        }
+        nav {
+            background: #808080;
+            color: white;
+            width: 200px;
+            padding: 1em 0;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        nav a {
+            color: white;
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        footer {
+            background: #d8bfd8;
+            color: black;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer p {
+            font-size: 1.2em; /* 文字サイズを大きくする */
+        }
+        .activity-image {
+            width: 100%; /* 画像を画面幅に調整 */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        /* スマホ対応のレスポンシブデザイン */
+        @media (max-width: 768px) {
+            nav {
+                width: 100%;
+                padding: 0;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            main {
+                flex-direction: column;
+            }
+            .container {
+                padding: 10px;
+            }
+            header {
+                flex-direction: column;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+        /* ページ上部に戻るボタンのスタイル */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #d8bfd8;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            display: none; /* 初期状態は非表示 */
+            z-index: 1000;
+        }
+        .back-to-top:hover {
+            background: #c9a6c9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG_0081.png" alt="Kids Logo">
+        <h1>学習支援ボランティア　未来キッズアカデミー</h1>
+    </header>
+    <main>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="greeting.html">代表挨拶</a>
+            <a href="activities.html">活動内容・予定</a>
+            <a href="records.html">活動の記録</a>
+            <a href="access.html">アクセス</a>
+            <a href="staff.html">スタッフ募集</a>
+            <a href="news.html">お知らせ</a>
+            <a href="donate.html">寄付/支援方法</a>
+        </nav>
+             <div class="container">
+            <h2>活動の記録</h2>
+            <!-- 目次を追加 -->
+            <ul>
+                <li><a href="#section1">創設会(2024/5/25)</a></li>
+                <li><a href="#section2">飛高会館での学習支援(2024/8/3,8/4)</a></li>
+                <li><a href="#section3">大薮市議の見学</a></li>
+                <li><a href="#section4">江南団地集会所での学習支援(2024/8/17,18)</a></li>
+                <li><a href="#section5">宮田学供での学習支援(2024/8/24,25)</a></li>
+                <li><a href="#section6">飛高会館での学習支援(2024/10/12,13)</a></li>
+                <li><a href="#section7">宮田学供での学習支援(2024/10/26,27)</a></li>
+                <li><a href="#section8">第2ジョイフル江南での読み聞かせ会(2024/12/13)</a></li>
+                <li><a href="#section9">飛高会館での学習支援(2024/12/14,15)</a></li>
+                <li><a href="#section10">第2ジョイフル江南での読み聞かせ会(2025/1/10)</a></li>
+                <li><a href="#section11">第2ジョイフル江南での学習支援(2025/1/25,26)</a></li>
+                <li><a href="#section12">飛高会館での学習支援(2025/2/8,9)</a></li>
+                <li><a href="#section13">第2ジョイフル江南での読み聞かせ会(2025/2/14)</a></li>
+            </ul>
+
+            <!-- 各セクションにIDを追加 -->
+            <h3 id="section1">創設会(2024/5/25)</h3>
+            <p>5月25日に未来キッズアカデミーの創設会を開きました。以下はその時の写真です。</p>
+            <img src="IMG_4742.JPG" alt="創設会の写真" class="activity-image">
+
+            <h3 id="section2">飛高会館にて、学習支援を行いました。(2024/8/3,8/4)</h3>
+            <p>８月3日(土)、4日(日)13時から16時、飛高会館にて、学習支援しました以下はその時の写真です。</p>
+            <img src="119109.jpg" alt="飛高会館の写真1" class="activity-image">
+            <!-- 他の画像はそのまま -->
+
+            <h3 id="section3">大薮市議さまが見学に来てくださいました！</h3>
+            <p>大薮市議さまが見学に来てくださいました！代表の想いをしっかりと聞いてくださり、色々と話をしてくださいました。</p>
+            <img src="119182.jpg" alt="飛高会館の写真6" class="activity-image">
+
+            <!-- 以下同様にIDを追加 -->
+            <h3 id="section4">8月17日(土)18(日)、江南団地集会所で学習支援をしました！</h3>
+            <p>2日間で９名のお子さんが、夏休みの宿題や自分が苦手だと思う所を持ってきて、聞きながら学習していました。</p>
+            <img src="120061.jpg" alt="江南団地集会所の写真" class="activity-image">
+
+            <h3 id="section5">8月24日(土)25(日)、宮田学供で学習支援をしました！</h3>
+            <img src="120691_0.jpg" alt="宮田学供の写真" class="activity-image">
+
+            <h3 id="section6">10月12日(土)13日(日)、飛高会館にて、学習支援をしました！</h3>
+            <img src="125195_0.jpg" alt="飛高会館の写真" class="activity-image">
+
+            <h3 id="section7">10月26日(土)27(日)、宮田学供にて学習支援をしました！</h3>
+            <img src="125197_0.jpg" alt="宮田学供の写真" class="activity-image">
+
+            <h3 id="section8">12月13日(金)、第2ジョイフル江南にて読み聞かせ会を行いました！</h3>
+            <img src="250211_12.jpg" alt="第2ジョイフル江南の写真" class="activity-image"> 
+
+            <h3 id="section9">12月14日(土)15日(日)、飛高会館にて学習支援をしました！！</h3>
+            <img src="114675.jpg" alt="飛高会館の写真" class="activity-image"> 
+            <img src="114676.jpg" alt="飛高会館の写真" class="activity-image">
+                 
+            <h3 id="section10">1月10日(金)、第2ジョイフル江南にて読み聞かせ会を行いました！</h3>
+            <img src="250211_4.jpg" alt="第2ジョイフル江南の写真" class="activity-image"> 
+                 
+            <h3 id="section11">1月25日(土)26日(日)、第2ジョイフル江南にて、学習支援をしました！</h3>
+            <img src="114678.jpg" alt="飛高会館の写真" class="activity-image">
+
+            <h3 id="section12">2月8日(土)9日(日)、飛高会館にて、学習支援をしました！</h3>
+            <img src="114672_0.jpg" alt="飛高会館の写真" class="activity-image">
+            <img src="114673_0.jpg" alt="飛高会館の写真" class="activity-image">     
+
+            <h3 id="section13">2月14日(金)、第2ジョイフル江南にて読み聞かせ会を行いました！</h3>
+            <img src="S__21028875.jpg" alt="第2ジョイフル江南の写真" class="activity-image"> 
+                 
+        </div>
+    </main>
+    <!-- ページ上部に戻るボタン -->
+    <button class="back-to-top" id="back-to-top">トップに戻る</button>
+    <footer>
+        <!-- 省略 -->
+    </footer>
+    <script>
+        // ページ上部に戻るボタンの表示/非表示制御
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) { // スクロール位置が300pxを超えたら表示
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックでスムーズにトップへスクロール
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

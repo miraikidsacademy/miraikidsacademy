@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="未来キッズアカデミーのホームページです。子どもたちの学びと成長を応援しています。">
+    <meta name="keywords" content="未来キッズアカデミー, 子ども, 学び, 成長, ボランティア,夏休み,宿題,江南市,江南,勉強,ミライキッズアカデミー,愛知県,小学生,中学生">
+    <title>学習支援ボランティア　未来キッズアカデミー</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
+    <style>
+        body {
+            font-family: 'Kosugi Maru', Arial, Helvetica, Verdana, Tahoma, Trebuchet MS, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background: #d8bfd8;
+            color: black;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 50px; /* 画像の高さを調整 */
+            margin-right: 20px; /* テキストとの間にスペースを追加 */
+        }
+        main {
+            display: flex;
+            flex: 1;
+        }
+        nav {
+            background: #808080;
+            color: white;
+            width: 200px;
+            padding: 1em 0;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        nav a {
+            color: white;
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        footer {
+            background: #d8bfd8;
+            color: black;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer p {
+            font-size: 1.2em; /* 文字サイズを大きくする */
+        }
+        .qr-code {
+            width: 50%; /* 画像の幅を1/2に設定 */
+            height: auto; /* アスペクト比を維持 */
+        }
+        /* スマホ対応のレスポンシブデザイン */
+        @media (max-width: 768px) {
+            nav {
+                width: 100%;
+                padding: 0;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            main {
+                flex-direction: column;
+            }
+            .container {
+                padding: 10px;
+            }
+            header {
+                flex-direction: column;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .qr-code {
+                width: 100%; /* スマホでは全幅 */
+            }
+        }
+.insta_btn{/*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+text-decoration:none;/*下線は消す*/
+}
+
+.insta_btn:before{/*グラデーション②*/
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+}
+
+.insta_btn .fa-instagram{/*アイコン*/
+  font-size: 35px;/*アイコンサイズ*/
+  position: relative;
+  top: 4px;/*アイコン位置の微調整*/
+}
+
+.insta_btn2 span {/*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG_0081.png" alt="Kids Logo">
+        <h1>学習支援ボランティア　未来キッズアカデミー</h1>
+    </header>
+    <main>
+        <nav>
+            <a href="index.html">ホーム</a>
+            <a href="greeting.html">代表挨拶</a>
+            <a href="activities.html">活動内容・予定</a>
+            <a href="records.html">活動の記録</a>
+            <a href="access.html">アクセス</a>
+            <a href="staff.html">スタッフ募集</a>
+            <a href="news.html">お知らせ</a>
+            <a href="donate.html">寄付/支援方法</a>
+        </nav>
+        <div class="container">
+            <h2>お知らせ</h2>
+            <p>未来キッズアカデミーからのお知らせです。</p>
+            <br><h3>公式インスタグラム開設のお知らせ</h3>
+            <br>未来キッズアカデミー公式インスタグラムを開設しました！ぜひフォローお願いします！
+<br><a href="https://www.instagram.com/mirai_kids_academy?idsh=MXo2b25zNnl2emxp" class="insta_btn">
+  <span class="insta">
+    <i class="fab fa-instagram"></i>
+  </span> 
+  Follow me
+</a>
+　　　　　　<br><h3>公式LINE開設のお知らせ</h3>
+　　　　　　<br>未来キッズアカデミー公式LINEを開設しました！ぜひ友達追加をお願いします!
+　　　　　　<br><a href="https://lin.ee/vntuXoU"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友達追加" height="36"border="0"></a>
+<br><br><h3>中日新聞で未来キッズアカデミーが紹介されました！(2024/8/23)</h3>
+<br><a href="https://www.chunichi.co.jp/article/947475?rct=owari_area" target="_blank">中日新聞の記事はこちらから</a>
+<br><br><h3>くれよんで未来キッズアカデミーが紹介されました！</h3>
+<br><a href="http://www.kureyon.com/konan_kan.html" target="_blank">くれよんの記事はこちらから</a>
+<br><br><h3>中日新聞で未来キッズアカデミーが紹介されました！(2024/11/14)</h3>
+<br><a href="https://www.chunichi.co.jp/article/986045?rct=aichi" target="_blank">中日新聞の記事はこちらから</a>
+        </div>
+    </main>
+    <footer>
+        <p><問い合わせ先> [Mail] mirai.kids.academy.2024.05.25@gmail.com [Tel] 090-7113-0525</p>
+    </footer>
+</body>
+</html>

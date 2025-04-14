@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://miraikidsacademy.github.io/sitemap.xml
