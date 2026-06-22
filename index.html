@@ -1,119 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="未来キッズアカデミーのホームページです。子どもたちの学びと成長を応援しています。">
-    <meta name="keywords" content="未来キッズアカデミー, 子ども, 学び, 成長, ボランティア,夏休み,宿題,江南市,江南,勉強,ミライキッズアカデミー,愛知県,小学生,中学生">
-    <title>学習支援ボランティア　未来キッズアカデミー</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
-    <style>
-        body {
-            font-family: 'Kosugi Maru', Arial, Helvetica, Verdana, Tahoma, Trebuchet MS, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-        header {
-            background: #d8bfd8;
-            color: black;
-            padding: 1em;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        header img {
-            height: 50px; /* 画像の高さを調整 */
-            margin-right: 20px; /* テキストとの間にスペースを追加 */
-        }
-        main {
-            display: flex;
-            flex: 1;
-        }
-        nav {
-            background: #808080;
-            color: white;
-            width: 200px;
-            padding: 1em 0;
-            text-align: center;
-            flex-shrink: 0;
-        }
-        nav a {
-            color: white;
-            display: block;
-            margin: 10px 0;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-            flex-grow: 1;
-        }
-        footer {
-            background: #d8bfd8;
-            color: black;
-            text-align: center;
-            padding: 1em 0;
-        }
-        footer p {
-            font-size: 1.2em; /* 文字サイズを大きくする */
-        }
-        .qr-code {
-            width: 33.33%; /* 画像の幅を1/3に設定 */
-            height: auto; /* アスペクト比を維持 */
-        }
-        /* スマホ対応のレスポンシブデザイン */
-        @media (max-width: 768px) {
-            nav {
-                width: 100%;
-                padding: 0;
-            }
-            nav a {
-                display: inline-block;
-                margin: 5px;
-            }
-            main {
-                flex-direction: column;
-            }
-            .container {
-                padding: 10px;
-            }
-            header {
-                flex-direction: column;
-            }
-            header img {
-                margin-right: 0;
-                margin-bottom: 10px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="未来キッズアカデミーは，愛知県江南市で小中学生の学びを支える学習支援ボランティアです。">
+  <meta name="keywords" content="未来キッズアカデミー, 学習支援, ボランティア, 江南市, 小学生, 中学生, 読み聞かせ, 百字要約">
+  <title>ホーム｜未来キッズアカデミー</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <img src="IMG_0081.png" alt="Kids Logo">
-        <h1>学習支援ボランティア　未来キッズアカデミー</h1>
-    </header>
-    <main>
-        <nav>
-            <a href="index.html">ホーム</a>
-            <a href="greeting.html">代表挨拶</a>
-            <a href="activities.html">活動内容・予定</a>
-            <a href="records.html">活動の記録</a>
-            <a href="access.html">アクセス</a>
-            <a href="staff.html">スタッフ募集</a>
-            <a href="news.html">お知らせ</a>
-            <a href="donate.html">寄付/支援方法</a>
-        </nav>
-        <div class="container">
-            <h2>ようこそ</h2>
-            <p>未来キッズアカデミーのホームページへようこそ。メニューから各ページに移動できます。</p>
-        </div>
-    </main>
-    <footer>
-        <p><問い合わせ先> [Mail] mirai.kids.academy.2024.05.25@gmail.com [Tel] 090-7113-0525</p>
-    </footer>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img class="logo" src="IMG_0081.png" alt="未来キッズアカデミーのロゴ">
+        <span>未来キッズアカデミー<small>地域の子どもたちの学びを応援する学習支援ボランティア</small></span>
+      </a>
+      <nav class="nav" aria-label="メインメニュー"><a href="index.html" aria-current="page">ホーム</a><a href="greeting.html">代表挨拶</a><a href="activities.html">活動内容・予定</a><a href="records.html">活動の記録</a><a href="access.html">アクセス</a><a href="staff.html">スタッフ募集</a><a href="news.html">お知らせ</a><a href="donate.html">寄付・支援方法</a></nav>
+    </div>
+  </header>
+  
+<section class="hero">
+  <div>
+    <span class="badge">愛知県江南市の学習支援ボランティア</span>
+    <h1>子どもたちが，安心して学べる場所を地域につくる．</h1>
+    <p>未来キッズアカデミーは，小中学生を対象に，宿題・各教科の学習・読み聞かせ・百字要約などを通して，学ぶ楽しさと自信を育てる活動を行っています．</p>
+    <div class="cta-row">
+      <a class="button primary" href="activities.html">活動予定を見る</a>
+      <a class="button secondary" href="staff.html">スタッフとして参加する</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <h2>現在の主な活動</h2>
+    <ul class="list-clean">
+      <li>夏休み課題のサポート</li>
+      <li>国語・算数・数学・社会・理科・英語の学習支援</li>
+      <li>読み聞かせと百字要約による国語力向上</li>
+    </ul>
+    <p class="note">対象：勉強を頑張りたい小中学生</p>
+  </aside>
+</section>
+<main>
+  <section class="section grid">
+    <article class="card"><h3>活動内容</h3><p>宿題や苦手分野の学習を，スタッフが一人ひとりに合わせてサポートします．</p><a href="activities.html">詳しく見る</a></article>
+    <article class="card"><h3>活動の記録</h3><p>これまでの学習支援や読み聞かせ会の様子を写真付きで紹介しています．</p><a href="records.html">記録を見る</a></article>
+    <article class="card"><h3>支援方法</h3><p>寄付やスタッフ参加など，活動を支える方法をまとめています．</p><a href="donate.html">支援方法を見る</a></article>
+  </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <strong>学習支援ボランティア 未来キッズアカデミー</strong>
+      <span>Mail：<a href="mailto:mirai.kids.academy.2024.05.25@gmail.com">mirai.kids.academy.2024.05.25@gmail.com</a></span>
+      <span>Tel：090-7113-0525</span>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button">トップへ</button>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
