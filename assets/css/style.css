@@ -352,3 +352,23 @@ main { max-width: var(--max); margin: 0 auto; padding: 30px 20px 68px; }
   .page-title { padding: 25px; }
   .hero-card, .card { padding: 22px; }
 }
+
+
+/* =============================================
+   引き継ぎ用：更新箇所ラベル
+   サイト閲覧者にも薄く表示されます．不要な場合は display: none; に変更してください．
+   ============================================= */
+.update-area {
+  position: relative;
+}
+
+.edit-label {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #fff3cf;
+  color: #7a5a19;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
